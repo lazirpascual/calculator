@@ -16,6 +16,7 @@ body,html {
     border-radius: 20px;
     position: relative;
     top: 3em;
+    background-color: antiquewhite;
 }
 
 .display-container {
@@ -25,13 +26,14 @@ body,html {
     height: 15%;
     border: 1px solid black;
     border-radius: 10px;
+    border: 2px solid black;
+    background-color: azure;
 }
 
 .top-keys-container {
     display: flex;
     justify-content: center;
     height: 80px;
-    
 }
 
 .top-keys {
@@ -39,6 +41,7 @@ body,html {
     height: 80px;
     margin: 0 2.5% 0 2.5%;
     font-size: 30px;
+    border-radius: 5px;
 }
 
 .main-keys-container {
@@ -55,6 +58,7 @@ body,html {
     width: 20%;
     margin: 0 2%;
     font-size: 30px;
+    border-radius: 5px;
 }
 
 
