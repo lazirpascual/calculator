@@ -18,7 +18,8 @@ let numbers = {
     second: "",
     operator: "",
     equals: "",
-    result: ""
+    result: "",
+    secondResult: ""
 };
 
 // loop through each button
@@ -71,7 +72,7 @@ mainButtons.forEach((button) => {
             numbers.second = "";
             numbers.operator = "";
             numbers.equals = "";
-        }
+        } 
 
         // when "clear" button is pressed, empty everything and display 0
         if (button.id == "clear") {

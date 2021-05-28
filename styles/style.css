@@ -45,6 +45,14 @@ body,html {
     margin: 0 2.5% 0 2.5%;
     font-size: 30px;
     border-radius: 5px;
+    background-color: rgb(189, 231, 236);
+}
+
+.top-keys:hover {
+    background-color: rgb(200, 196, 196);
+    box-shadow: 3px 3px 1px;
+    border-bottom: 2px solid;
+    cursor: pointer;
 }
 
 .main-keys-container {
@@ -64,4 +72,9 @@ body,html {
     border-radius: 5px;
 }
 
-
+.main-keys:hover {
+    background-color: rgb(200, 196, 196);
+    box-shadow: 3px 3px 1px;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
